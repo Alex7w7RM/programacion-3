@@ -21,6 +21,7 @@ int main()
 	cout<< "Que tipo de operacion desea hacer?" << "\n"; 
 	cout<< " opcion 1: Suma" << "\n"; 
 	cout<< " Opcion 2: Resta" << "\n";
+	cout<< " Opcion 3: Multiplicacion" << "\n"; 
 		
 	int opc1 ;
 	cout<< "ingrese un numero para seleccionar la opcion que usted desee ejecutar" << "\n"; 
@@ -28,7 +29,7 @@ int main()
 	switch(opc1){ 
 		case 1: cout << var1 << " + " << var2 << " = " << var1 + var2; break;
 		case 2: cout << var1 << " - " << var2 << " = " << var1 - var2; break; 
-		
+		case 3: cout << var1 << " * " << var2 << " = " << var1 * var2; break;
 	}
 
 }
